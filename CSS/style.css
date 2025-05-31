@@ -1,22 +1,26 @@
 body {
     background-image: url('Background.jpg');
     background-repeat: repeat;
-    font-family: Verdana, Geneva, sans-serif;
-    font-size: 12pt;
+    font-family: 'Unna', serif;
+    font-size: 16px;
     margin: 20px;
 }
 
-p {
-    margin-bottom: 12px;
-    line-height: 1.5;
+p{
+    text-indent: 1.5em;
+    margin-top: 0.9em;
+    margin-bottom: 0.9em;
 }
 
 img.photo {
+    padding: 5px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgb(0, 0, 0, 0.3);
     float: right;
     width: 300px;
     height: auto;
-    margin-left: 20px;
-    margin-bottom: 20px;
+    margin: 20px;
 }
 
 a {
@@ -33,4 +37,109 @@ a:hover {
     margin-left: 40px;
     margin-right: 40px;
     white-space: pre-line;
+}
+
+h1 {
+    display: inline-block;
+    font-size: 46pt;
+    font-weight: normal;
+    font-family: 'Philosopher', serif;
+    background: linear-gradient(to right, #fbd3e9, #bbd4f5);
+    color: 4b1248;
+    padding: 10px 25px;
+    border-radius: 12px;
+    border: 2px solid #fbd3e9;
+    text-shadow: 1px 1px 2px #ffffff88;   
+    margin-top: 0;
+}
+
+.header {
+    text-align: center;
+    margin-top: 20px;
+    border-bottom: 3px solid #4b1248;
+    padding-bottom: 10px;             
+    margin-bottom: 30px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 34.5pt;
+    margin-bottom: 15.2pt;
+    font-weight: bold;
+    color: #333;           
+}
+
+.schedule {
+    table-layout: fixed;
+    width: 750px;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-family: 'Unna', serif;;
+}
+
+.schedule th, .schedule td {
+    border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+  word-wrap: break-word;
+}
+
+.schedule th{
+    width: 120px;
+    background-color: #e88b8b;
+    color: white;
+
+
+}
+
+.workout {
+  background-color: #d1f0ff;
+  border-color: #a5d9ee;
+}
+
+.cs3060 {
+  background-color: #e0ffd1;
+  border-color: #b4e69c;
+}
+
+.cs2550 {
+  background-color: #fff3d1;
+  border-color: #ffe0a5;
+}
+
+.cs2450 {
+  background-color: #f3d1ff;
+  border-color: #dca5ee;
+}
+
+.cs3260 {
+  background-color: #ffd1d1;
+  border-color: #e6a5a5;
+}
+
+.cs3600 {
+  background-color: #d1ffe3;
+  border-color: #a5e6c2;
+}
+
+.cs3660 {
+  background-color: #d1d8ff;
+  border-color: #a5ade6;
+}
+
+.cs3520 {
+  background-color: #ffe1f0;
+  border-color: #e6b6ce;
+}
+
+.work {
+  background-color: #e5e5e5;
+  border-color: #b3b3b3;
+}
+
+.schedule tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.schedule tr:nth-child(odd) {
+    background-color: #ffffff;
 }
